@@ -88,3 +88,14 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Data
+wmt16_de_en/*
+
+# Model
+model.ckpt*
+events.out.tfevents*
+*.pbtxt
+
+# Benchmark Results
+summary*.md
